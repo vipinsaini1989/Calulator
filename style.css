@@ -1,14 +1,18 @@
+body{
+	background-color: #d3ad38db;
+}
 div {
 	width: 25%;
-	height: 450px;
-	background-color: grey;
+	height: 490px;
+	background-color: #323c4f;
 	margin-top: 8%;
 	font-family: 'Orbitron', sans-serif;
 	border-radius: 10px;
 }
 
 button {
-	padding: 20px;
+	width: 20%;
+	height: 60px;
 	border-radius: 8px;
 	font-size: 16px;
 	margin: 1%;
@@ -16,15 +20,48 @@ button {
 	font-family: 'Orbitron', sans-serif;
 
 }
-input {
-	width: 80%;
-	padding: 20px 20px;
-	margin-bottom: 2%;
+#textbox {
+	background-color: #F0FFFF;
+	width: 93%;
+	height: 80px;
 	font-family: 'Orbitron', sans-serif;
-	font-size: 25px;
+	font-size: 32px;
 	text-align: right;
 	border-radius: 10px;
+	line-height: 90px;
+	letter-spacing: 8px;
+	overflow: hidden;
 }
 p {
 	padding-top: 8px;
 }
+.text1 {
+	background-color: #d35454;
+	color: white;
+}
+
+.div2 {
+	margin-left: -23%;
+	width: 100%;
+	padding-right: 0%;
+}
+#point {
+	display: block;
+	margin-top: -20%;
+	margin-right: -23%;
+}
+/*.div3 {
+	margin-left: -29%;
+}*/
+.zero {
+	display: block;
+	margin-left: -45%;
+	width: 43%;
+}
+.equalto {
+	display: block;
+	margin-top: -40%;
+	margin-right: -70%;
+	height: 26%;
+}
+
